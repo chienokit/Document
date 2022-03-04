@@ -1,0 +1,4 @@
+Code fontend: 
++ tạo model để hứng dữ liệu -> viết service để gọi api -> trong component viết hàm tạo để inject cái service vào
+-> khai báo một mảng Imodel để hứng data. gọi hàm trong service để lấy data về -> trong template duyệt qua mảng đó và 
+hiển thị lên view.

@@ -1,0 +1,39 @@
+Tư tưởng code mới: 
+- Bình thường ta sẽ tạo ra các Entity trong đó sẽ chứa các quan hệ như 1-n, n-n, 1-1.
+và spring sẽ tự genarate ra các table trung gian của quan hệ n-n. Bây giờ ta sẽ không tạo
+quan hệ trong entity nữa. Trong quan hệ n-n ta sẽ tự tạo ra entity của bảng đó như các bảng thông thường.
+=> để có thể xử lí ta phải tạo thêm 1 class java thuần để mô phỏng class Entity, class này
+gần giống với class Entity nhưng mà sẽ thêm các thuộc tính chứa quan hệ. 
+
+- Bình thường trong service ta sẽ tạo đối tượng Entity, xử lí logic và gọi hàm bên 
+Repository thao tác với DB, Bây giờ ta sẽ tạo đối tượng Đại diện cho Entity và gọi hàm
+xử lí mà ta đã xây dựng riêng. => Service bây giờ không còn xử lí logic nữa mà sẽ có những 
+hàm khác ta xây dựng để xử lí logic cho đối tượng đại diện cho entity.
+
+Ví dụ: Xây dựng API thêm người dùng:
+- Cách 1 (Sử dụng quan hệ trong Entity): đầu tiên ta sẽ tạo userEntity mapping dữ liệu từ userInput sang
+userEntity. Lấy ra danh sách các roleID từ userInput -> duyệt qua từng roleId lấy ra từng roleEntity và 
+add vào 1 list roleEntities. Cuối cùng gán roleEntities cho thuộc tính roles của userEntity -> gọi hàm 
+save để lưu userEntity và đồng thời cũng lưu luôn vào bảng user_role.
+- Cách 2 (Không sử dụng quan hệ trong Entity): đầu tiên ta sẽ tạo ra User, mapping dữ liệu từ UserCreateOrUpdateRequest
+sang UserCreateOrUpdateCmd -> mapping dữ liệu từ UserCreateOrUpdateCmd sang User (có các bước nhỏ sau):
++ Lấy ra tất cả các role đã tồn tại (existedRoles) dùng hàm findAll (trả về Entity -> mapping sang Role) 
++ Lấy ra các roleId ở UserCreateOrUpdateCmd 
+assignedRoleIds = cmd.getRoleCodes().stream().distinct().collect(Collectors.toList());
++ lặp qua từng roleId và kiểm tra nó có tồn tại trong trong existedRoles hay không nếu có tồn tại thì tạo đối tượng
+UserRole và add vào thuộc tính private List<UserRole> userRoles của đối tượng User. Tiếp theo add role vừa tìm được 
+vào thuộc tính private List<Role> roles của đối tượng User. 
+
+ for (String roleCode : assignedRoleIds) {
+            Optional<Role> optionalRole = existedRoles.stream().filter(r -> r.getCode().equals(roleCode)).findFirst();
+            if (optionalRole.isPresent()) {
+                Role role = optionalRole.get();
+                this.userRoles.add(new UserRole(this.id, role.getCode()));
+                this.roles.add(role);
+            }
+        }
+
+-> lúc này ta đã tạo được đối tượng user có đầy đủ thông 
+tin bao gồm List<UserRole> userRoles và List<Role>. -> tiếp theo ta sẽ save User vào database đồng thời cũng phải save 
+các danh sách các List<UserRole> userRoles vào DB. Để làm việc này cùng lúc ta sẽ override lại hàm save đã được kế thừa
+từ AbstractDomainService(dựa theo MB amc-iam)
