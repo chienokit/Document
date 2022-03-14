@@ -37,3 +37,8 @@ vào thuộc tính private List<Role> roles của đối tượng User.
 tin bao gồm List<UserRole> userRoles và List<Role>. -> tiếp theo ta sẽ save User vào database đồng thời cũng phải save 
 các danh sách các List<UserRole> userRoles vào DB. Để làm việc này cùng lúc ta sẽ override lại hàm save đã được kế thừa
 từ AbstractDomainService(dựa theo MB amc-iam)
+
+
+- Entity chỉ để tạo bảng trong DB
+- Domain xử lí logic nghiệp vụ, trong domain ngoài những field của entity còn chứa các đối tượng liên quan cần xử lí 
+- Service xử lí dữ liệu và cung cấp cho thằng domain cần gì nó sẽ call xuống DB ->  lưu lại sự thay đổi xuống DB.
