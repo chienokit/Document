@@ -15,6 +15,10 @@ Muốn push và tạo nhánh mới:	git push origin feature-1
 
 shift : + q
 
-Xóa Branch local: git branch -D tên nhánh
+Xóa Branch local chưa được merge: git branch -D tên nhánh
+
+- Git merge: checkout sanng nhánh master rồi merge nhánh fixbug vào -> tạo ra một cái commit mới merge 2 cái nội dung của 2 nhánh vào với nhau
+
+- Git rebase: check out sang nhánh feature rồi rebase sang nhánh chính -> nó sẽ add commit của nhánh feature vào sau commit của nhánh develop
 
 
