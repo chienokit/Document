@@ -42,3 +42,5 @@ từ AbstractDomainService(dựa theo MB amc-iam)
 - Entity chỉ để tạo bảng trong DB
 - Domain xử lí logic nghiệp vụ, trong domain ngoài những field của entity còn chứa các đối tượng liên quan cần xử lí 
 - Service xử lí dữ liệu và cung cấp cho thằng domain cần gì nó sẽ call xuống DB ->  lưu lại sự thay đổi xuống DB.
+
+- Tại sao cần cmd khi đã có request: vì nhiều trường người dùng gửi lên còn thiếu ta phải dùng cmd để tạo thêm dữ liệu
