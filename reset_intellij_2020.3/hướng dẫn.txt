@@ -1,0 +1,3 @@
+Vào phần mềm chọn Menu File > Settings > Plugins > Install Plugin from Disk(ấn vào nút bánh xe răng cưa)
+Chọn tới file ide-eval-resetter-2.1.14.jar để cài đặt Plugin này, nhấn OK
+Vào Menu Help > Eval Reset
