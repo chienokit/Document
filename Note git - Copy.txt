@@ -1,0 +1,24 @@
+Khi nhận làm 1 tính năng hay fix 1 bug ta sẽ tạo ra 1 nhánh mới checkout code từ nhánh dev về.
+Sau khi code xong bình thường ta sẽ tạo megre request để merge code từ nhánh ta code sang nhánh dev.
+Nhưng giả sử trong lúc ta code tính năng mới có những commit mới trên nhánh dev khiến việc merge code
+của ta có thể bị conflict -> lúc code xong ta nên kiểm tra confict bằng cách dùng lệnh rebase.
+- Đầu tiên ta sẽ chuyển sang nhánh dev và pull code mới nhất về:
+	git checkout dev
+	git pull 
+- Chuyển sang nhánh feature và rebase nó với nhánh dev ( bản chất là gộp 2 nhánh thành 1 nhánh feature)
+	git checkout feature
+	git rebase dev
+- Kiểm tra và sửa conflict bằng cách dụng visual code => sửa xong git add . => git commit => git rebase --continue còn conflict fix tiếp
+nếu ok thì ấn :wq => git push
+Muốn push và tạo nhánh mới:	git push origin feature-1
+- Tạo merge request vào nhánh dev.
+
+shift : + q
+
+Xóa Branch local chưa được merge: git branch -D tên nhánh
+
+- Git merge: checkout sanng nhánh master rồi merge nhánh fixbug vào -> tạo ra một cái commit mới merge 2 cái nội dung của 2 nhánh vào với nhau
+
+- Git rebase: check out sang nhánh feature rồi rebase sang nhánh chính -> nó sẽ add commit của nhánh feature vào sau commit của nhánh develop
+
+
