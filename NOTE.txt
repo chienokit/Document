@@ -1,0 +1,121 @@
+qlktx: admin (Admin93#)
+
+
+pass icivet:
+Vukhanhngoc1
+Vuhuuchien93
+
+108k/1h
+- Tăng ca: 3 9 10 11 14 15 16 17 18 20 21 22 23
+
+**BACKEND
+request -> cmd -> domain(xử lý logic) -> Service(chỉ xử lý lưu xuống DB)
+
+Muốn class không thể khởi tạo đối tượng -> tạo 1 hàm tạo ko đối private
+
+- Tạo mới, update user -> thêm dữ liệu vào bảng user_role
+- Tạo mới role, update -> thêm dữ liệu vào bảng role_permission
+- Xóa user-> xóa dữ liệu trong bảng user_role
+- Xóa role -> xóa dữ liệu trong bảng user_role, role_permission
+- Xóa permission -> xóa dữ liệu trong bảng role_permission
+- UserDto thì có 1 list RoleDto
+- Trong RoleDto thì có 1 list RolePermissionDto(tại sao trong RoleDto không lưu list permission vì RolePermissionDto ta đã xử lý lưu luôn resourceCode và scope)-> 
+nếu muốn xóa 1 permission ta phải xóa dữ liệu tại bảng role_permission nhưng mà sẽ tìm theo resourceCode và scope của permission cần xóa chứ không phải tìm theo Id của permission
+
+- Trong bảng role_permission đáng nhẽ lưu roleId và permissionId nhưng để dễ hiểu ta không lưu permissionId mà lưu luôn giá trị resourceCode và  scope của bảng permission
+
+- Khi ứng dụng ném ra 1 exeption thì fontend sẽ không tự nhận được mà ta cần tạo 1 class ExceptionHandleAdvice có gắn annotation @ControllerAdvice để handle exeption
+khi bắn ra exeption loại nào nó sẽ nhảy vào function exeption đó và ta sẽ trả về trạng thái của http response và body theo ý mình -> fontend sẽ nhận response trả về và xử lý
+trong hàm intercept
+
+- Lỗi "No enum constant" xảy ra khi dữ liệu lấy từ DB về khi mapping thành entity thì không thể mapping được vì trường enum không định nghĩa giá trị đó(nguyên nhân lỗi là do sửa 
+enum mà không sửa lại dữ liệu trong DB)
+
+
+- Mỗi lần tạo đơn các khách hàng đều là khách hàng mới, chỉ cho phép chọn lại những khách hàng đã có và sửa lại thông tin. vì vậy khi cho chọn lại khách hàng cũ thì fontend gửi lên
+sẽ xóa id của khách hàng chọn lại đi để backend kiểm tra theo id và tạo mới khách hàng.
+
+- Desc là sắp xếp giảm dần
+- Asc là tăng dần
+
+- Lỗi 401 là máy chủ yêu cầu xác thực (trong trường hợp ứng dụng của mình thì là có token nhưng token không đúng or hết hạn)
+- Lỗi 403 là không có quyền (tức là đã xác thực nhưng không có quyền truy cập vào tài nguyên)
+
+@valid
+- Khi bạn có một đối tượng phức tạp (như một danh sách các đối tượng) trong một đối tượng chính và muốn áp dụng các quy tắc validation cho các đối tượng trong danh sách đó, bạn cần sử dụng annotation @Valid.
+
+
+
+
+v0900902 66
+v0507223
+
+
+
+96606
+
+v0518330 017894
+
+v0518340 005860
+
+
+
+
+
+**ANGULAR:
+- Khi login hệ thông:
+	+ nếu không chọn nhớ đăng nhập thì khi login thành công server sẽ trả về 1 token, fontend sẽ lưu token đó  vào local storage và gắn token vào header request để gửi lên server, 
+	khi gửi lên sever request đi qua fillter do ta custom nó sẽ check nếu token hết hạn or sai sever sẽ trả về trạng thái 401 -> fontend sau khi nhận được status 401 
+	thì sẽ kiểm tra xem có refresh token không nếu không sẽ redirect về trang login(vì không nhớ mật khẩu nên sẽ không có refresh token) -> 
+	nếu token hợp lệ server sẽ tạo đối tượng UserDetail (từ user_id lấy từ token) -> từ UserDetail tạo đối tượng authentication và lưu vào context để quản lý
+	(lúc này sever đã biết người dùng có những quyền gì)
+	
+	+ Nếu chọn nhớ mật khẩu thì khi login thành công server sẽ trả về 1 token và 1 refresh token fontend sẽ lưu 2 token đó vào local storage và gắn token vào header request
+	khi gửi lên sever, nếu token là hợp lệ thì giống phía trên, nếu token hết hạn or không hợp lệ thì fontend sẽ xóa token ở local storage và gọi api refresh token 
+	với body chứa refresh token đã được lưu, sever sẽ kiếm tra nếu refresh token hợp lệ thì sẽ trả về token mới và refresh token mới và gọi lại api vừa gọi không thành công
+	với token mới vừa được trả về. Nếu refresh token cũng hết hạn hoặc không hợp lệ thì sever sẽ trả null -> lúc này khi ta gửi 1 request mới header sẽ không có token ->
+	người dùng sẽ ko có quyền với các tài nguyên phân quyền -> sever sẽ trả về status 403 và ta đã custom ở fontend khi gặp status 403 thì redirect về trang login
+	
+- Hàm intercept trong HttpInterceptor có mục đích để thực hiện các xử lý trước hoặc sau khi gửi một HTTP request và trước khi nhận HTTP response từ server. Hàm này được gọi 
+bơi Angular cho mỗi request khi nó được thực hiện, các công việc thường được thực hiện trong hàm intercept:
+	+ Thực hiện thiết lập các thuộc tính như header, url cho request trước khi http request được gửi đi.
+	+ xử lý lỗi: khi sever trả về 1 mã trạng thái bạn có thể dựa vào mã đó và có những hành động phù hợp(ví dụ như nếu server trả về mã 401 bạn có thể redirect người dùng đến trang login
+	
+- intercept của HttpInterceptor không xử lý status được trả về từ lời gọi api trong chính nó (vì như vậy nó sẽ bị lặp vô tận).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Thứ 2 xử lý phần chuyển phòng, -> khi ấn nút chuyển phòng thì sẽ hiện thông báo xác nhận giống xác nhận trả phòng của tổng vụ để điền ngày trả phòng thực tế và màn hình sắp xếp phòng như mọi khi để chọn phòng chuyển sang, chuyển trạng thái room_customer hiện tại thành đã trả phòng rồi thêm 1 bản ghi room_customer mới
+- Khi xuất file excel thì check xem customerDto nếu có nhiều roomcustomer thì sẽ xuất ra nhiều dòng khách hàng liên tiếp
+- kiểm tra xem sửa hàm this.roomCustomerRepository
+                    .findByCustomerIdAndDeletedFalse(request.getCustomerId()); có ảnh hưởng đến code chỗ khác không
+					
+- Kiểm tra nếu trong roomcustomer nếu đã có 1 bản ghi là đã trả phòng thì chỉ có thể chuyển phòng không thể sắp xếp phòng
+
+
+
+
+
+
+
+
+- checkout sang 1 nhánh khác để sửa phần gửi mail cho anh từng khi ký cấp 2 đơn xin vào ktx thành công, viết api trả về list Mã chi phí, bộ phận, 
+sửa lại hàm exportAllCustomerIsStaying để fillter theo mã chi phí với bộ phận vừa gửi lên
+
+- đã thêm 1 quyền booking:report mai bảo dũng thêm vào chỗ báo cáo, và test lại
+
+
+
+
+
