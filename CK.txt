@@ -1,0 +1,164 @@
+Nạp: 100
+nợ phong 10
+
+- eps là lãi cổ tức của 1 cổ phiếu (nếu được chia hết): bằng tổng lợi nhuận sau thuề - cổ tức cổ phiếu ưu đãi chia cho tổng số lượng cổ phiếu đang lưu hành
+- P/E: là chỉ số mô tả để kiếm được 1 đồng cổ tức ta cần bao nhiêu đồng vốn, nó được tính bằng giá cổ phiếu chia eps
+- Giá trị sổ sách /cp: được tính bằng cách chia tổng giá trị số sách(chưa phải thực tế) của công ty(tổng tài sản - nợ) cho tổng số lượng cổ phiếu đang lưu hành. 
+- P/B: Chỉ số này so sánh giá thị trường của cổ phiếu với giá trị sổ sách của công ty trên mỗi cổ phiếu. chỉ có tác dụng lúc thị trường khủng hoảng, hoặc là lúc ta mua
+các công ty mà tài sản hữu hình nó đóng vai trò lớn trong mô hình kinh doanh. còn đối với công ty tài sản vô hình nó lớn thì chỉ số này ko còn quá quan trọng
+- ROA:là % giữa lợi nhuận ròng và tổng tài sản chỉ số này cho biết 1 công ty sử dụng tài sản để kiếm lời như thế nào 
+- ROE: là 5 giữa lợi nhuận ròng và tổng vốn chủ sở hữu (thái phạm chọn > 10) và phải lớn hơn nhiều lãi ngân hàng 1 năm
+- ROS: Tỉ suất sinh lời trên doanh thu 
+- GOS: Tỷ suất lợi nhuận gộp: (Doanh thu thuần - Giá vốn hàng hóa bán) : Doanh thu thuần
+
+
+2. Nhận biết các mẫu nến cơ bản
+Các mẫu nến cơ bản giúp xác định xu hướng tiếp theo của giá:
+
+Nến Doji: Thân nến rất mỏng hoặc không có, cho thấy sự do dự hoặc đảo chiều xu hướng.
+Nến Hammer (Búa): Có thân nến ngắn, bóng dưới dài, thể hiện khả năng đảo chiều tăng trong xu hướng giảm.
+Nến Shooting Star: Có thân nến ngắn, bóng trên dài, cho thấy khả năng đảo chiều giảm trong xu hướng tăng.
+Nến Engulfing (Nhấn chìm): Thân nến lớn hoàn toàn bao phủ thân nến trước đó, thường báo hiệu sự đảo chiều mạnh.
+
+-----------------------Nguyễn Toại-------------------------
+- Trong 1 xu hướng tăng thì sóng tăng sẽ dài sóng điều chỉnh sẽ ngắn và nhanh và tới khi nào nhịp tăng của nó yếu dần(đỉnh sau không cao hơn đỉnh trước mấy) thì kết thúc xu hướng tăng,
+ trong 1 xu hướng giảm thì sóng giảm sẽ dài hơn sóng tăng(sóng hồi)
+- Trong 1 xu hướng giảm nếu hồi mà phá vỡ được đỉnh gần nhất thì có khả năng sẽ tăng mạnh
+
+- Nến lên là nến có giá thấp nhất vào cao nhất cao hơn nến trước
+- Nến giảm là nến có giá thấp nhất và cao nhất nhỏ hơn nến trước
+- Nến inside bar là nên có giá cao nhất và thấp nhất nằm hoàn trong cây nến trước đóng
+- Nến outside bar là nến có giá trị cao nhất và thấp nhất bao cả cây nến trước đó
+
+- Nến tăng mà vol lớn thì khả năng tăng rất cao, nến giảm mà vol lớn thì khả năng giảm rất cao, nến có thân nến ngắn mà vol lớn thì có khả năng giảm cao
+
+- Sóng tăng: có 1 nến lên và giá phá vỡ lên trên đỉnh gần nhất + vol tăng mạnh thì có thể margin
+- Sóng giảm: có 1 nến giảm và giá phá vỡ xuống dưới đáy gần nhất
+- Nến inside bar là nến không phá vỡ giá cao nhất và giá thấp nhất của cây nến trước -> do đó giữ nguyên xu hướng hiện tại
+- Đỉnh thứ cấp là đỉnh sau cao hơn đỉnh trước
+- Đỉnh cơ bản đỉnh sau thấp hơn đỉnh trước
+- Đáy thứ cấp là đáy sau thấp hơn đáy trước
+- Đáy cơ bản là đáy sau cao hơn đáy trước
+
+
+ => thứ cấp(cùng xu hướng) là theo xu hướng tăng hoặc giảm thì thằng phía sau phải tăng hay giảm mạnh so với thằng so sánh
+ => Cơ bản (ngược xu hướng)
+ => Trong xu hướng tăng luôn xuất hiện các đỉnh thứ cấp và đáy cơ bản(tức là xuất hiện các đỉnh sau cao hơn đỉnh trước và đáy sau cao hơn đáy trước)
+ => Trong xu hướng giảm luôn xuất hiện các đỉnh cơ bản và đáy thứ cấp(tức là xuất hiện các đỉnh sau thấp hơn đỉnh trước và đáy sau thấp hơn đáy trước)
+
+ => khi nó đã tạo đỉnh mà đỉnh sau cứ thấp hơn đỉnh trước thì cũng nên cân nhắc bán và nếu mà giảm thủng đáy gần nhất thì chạy
+
+ => Khi nó tạo mô hình 2 đáy sau khi 1 nhịp giảm mạnh và có 1 cây break vol lớn vượt qua đỉnh trung tâm thì bước vào sóng tăng và kéo dài ít nhất 1 đến 2 tháng
+
+ => Vùng giằng co hay vùng tích lũy, vùng hỗ trợ, vùng kháng cự là vùng mà các nến ngắn đứng cùng nhau muốn phá vỡ vùng này cần xét 2 cây nến, 1 cây phá vỡ(thủng trên hoặc thủng dưới) còn cần cây tiếp theo để
+ kiểm tra lại nếu cây tiếp theo, trong trường hợp phá vỡ xuống nếu cây tiếp theo hồi lại bằng hơn nửa cây trước thì khả năng phá vỡ thất bại tương tự ngược lại với phá lên nếu cây sau
+ lại giảm quá nửa thì phá lên thất bại
+
+- trend thì tất cả cổ phiếu sẽ đồng pha(tăng cùng tăng, giảm cùng giảm)
+- sideway thì có nhóm tăng có nhóm giảm
+
+----Phân tích giá kết hợp với khối lượng:
+- Khối lượng thúc đẩy thị trường nó ghi lại dấu vết của tổ chức lớn khi họ bước vào và thoát ra khỏi thị trường
+- Nếu không có khối lượng thì mọi thứ đều không di chuyển, nếu sự vận động của giá và khối lượng không tương xứng với nhau thì chắc chắn có điều gì không ổn đang diễn ra
+sau hành động giá đó
+- Trước phiên ngày mai, tối hôm trước ta sẽ lọc ra tầm 20 mã để theo dõi kiểm tra mã nào tăng mà vol tăng đột biến
+- Nếu khôí lượng thấp mà biến động mạnh thì điều đó là bất thường(không vào) và ngược lại nếu khối lượng giao dịch cao mà chuyển động giá lại nhỏ thì cũng là bất thường
+- Nếu trong xu hướng tăng ở trên đỉnh nếu vol cao mà giá không tăng nổi thì sau đó sẽ điều chỉnh giảm
+- Nếu nhịp tăng mà vol rất thấp thì có khả năng điều chỉnh giảm ngay sau đó, nếu đang ở đỉnh mà vol cao mà không đẩy được giá lên tiếp thì có khả năng giảm
+
+=> Giá tăng khối + lượng tăng thị trường đang trong xu hướng tăng tốt
+=> giá tăng khối + khối lượng không tăng -> thị trường trong xu hương tăng yếu có nguy cơ đảo chiều
+=> giá giảm + khối lượng tăng -> thị trường đang phân phối
+=> giá giảm nhưng khối lượng nhỏ -> không quá tiêu cực (tùy vị trí cấu trúc giá để phân tích)
+=> Trong xu hướng tăng nếu khối lượng giảm dần theo chiều giá tăng -> xu hướng đang đến đoạn cuối
+=> Trong xu hướng xuống lúc đầu khối lượng sẽ tăng vì hoạt động cắt lỗ và chốt lời. Khi gần tạo đáy khối lượng bắt đầu giảm xuống cho thấy áp lực bán không mạnh
+lúc này nhịp điều chỉnh có khả năng kết thúc
+
+- Quy tắc: Thị trường khi đã vào xu hướng thì không thể đột ngột dừng lại và quay đầu 1 cách nhanh chóng
+
+- Giai đoạn tích lũy: khi giá cổ phiếu biến động thấp và vol cũng nhỏ lúc này là lúc lái gom hàng, khi có 1 cây nến break với giá tăng mạnh và vol lớn thì
+thoát khỏi giai đoạn này và sang giai đoạn đẩy giá
+- Giai đoạn làm giá: xuất hiện khi 1 cây nến phá vỡ đỉnh gần nhất với vol lớn -> lúc này giá sẽ được đẩy lên, trong quá trình đẩy lên sẽ có những pha điều chỉnh nhỏ
+(giá biến động giảm nhỏ, vol nhỏ)
+- Giai đoạn phân phối là giai đoạn mà lái sẽ bán hàng đã gom, ở giai đoạn này là giá đã ở mức cao vol cao nhưng giá biến động nhỏ, hoặc là giá tăng và liền bị đạp xuống trong 1 phiên
+và sẽ kết thúc khi giá chọc thủng đáy gần nhất với 1 cây nên có vol lớn sẽ phá vỡ giai đoạn này -> nếu thấy vol cao mà giá không thể lên được nữa sẽ bán,
+có thể lướt sóng ở vùng này(vì thường biên độ sẽ là 10%) nhưng mà nếu bị chọc thủng đáy phải lập tức cắt lỗ
+
+
+----Bùng nổ theo đà:
+- Nguyên tắc 1: chiều dài của đuôi nến cho dù là đuôi trên hay đuôi dưới phải luôn luôn là điểm chú ý đầu tiên bởi nó tiết lộ ngay lập tức sức mạnh sắp xảy ra, sự yếu hay sự 
+thiếu quyết đoán và nhiều điều quan trọng
+- Nguyên tắc 2: nếu không có sự xuất hiện của đuôi nến điều này báo  hiệu tâm lý thị trường mạnh mẽ theo hướng của giá đóng cửa
+- Nguyên tắc 3: 1 nến thân nhỏ báo hiệu 1 thị trường biến động yếu, 1 nến thân to báo hiệu thị trường biến động mạnh
+- Nguyên tắc 4: Một cây nến cùng loại sẽ có một ý nghĩa hoàn toàn khác nhau tùy thuộc vào nơi nó xuất hiện trong 1 xu hướng giá
+- Nguyên tắc 5: khối lượng xác nhận giá. Bắt đầu với mô hình nến, sau đó tìm kiếm sự xác nhận hoặc bất thường của hành động giá bằng khối lượng.
+
+- Ngày bùng nổ theo đà: Đánh dấu sự bắt đầu của 1 xu hướng tăng mới. Đây là 1 khái niệm dùng để nhận biết thị trường chuyển từ giảm giá sang giai đoạn tăng giá
+và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, chỉ áp dụng bùng nổ theo đà với Vnindex không áp dụng cho cổ phiếu riêng lẻ.
+
+- Các tiêu chí:
+ + Ngày 1: đà rơi của thị trường chững lại bởi xuất hiện phiên tăng giá đầu tiên với vol lớn
+ + Ngày 2 và 3: Giá phải duy trì trên đáy vừa thiết lập. Trong trường hợp chỉ số thủng đáy mới của phiên nỗ lực phục hồi -> mẫu hình không còn giá trị
+ + FTD thường xuất hiện ở ngày thứ 4 đến ngày thứ 8, có thể muộn hơn kể từ phiên nỗ lực phục hồi. Một vài trường hợp đặc biệt có thể xuất hiện sớm vào ngày thứ 3
+ của đợt nỗ lực phục hồi nhưng đòi hỏi mức tăng giá phải từ 2 - 4% và kèm vol lớn và phiên giao dịch phải đem lại cảm giác tăng giá bùng nổ cho toàn bộ thị trường
+ + Phiên FTD đầu phiên có thể giảm nhưng sau đó bùng nổ mạnh mẽ dòng tiền lan tỏa khắp các mã và nhóm ngành
+ + Trước phiên bùng nổ theo đà thường là 1 phiên test cung với khối lượng thấp
+ + Chỉ số thị trường chung tăng mạnh ở mức 2 - 4 % khối lượng lớn hơn nhiều phiên trước đó và giao dịch toàn thị trường tăng mạnh
+- Mẫu hình nến đảo chiều:
+ + Mẫu shooting star: là mẫu nến có phần râu trên dài, râu dưới ngắn gần như không có và xuất hiện ở đỉnh mà xuất hiện 1 cây nến này + vol lớn thì khả năng đảo chiều giảm cao
+ (nếu nến màu đỏ càng uy tín) vì ta có thể thấy áp lực bán từ đỉnh nến là lớn. Nếu ở đỉnh xuất hiện nến này nhưng vol nhỏ cũng chưa phải lo lắng lắm
+ + Mẫu hình nến hummer:là cây nến có râu dưới dài, râu trên gần như không có và xuất hiện ở đáy + vol cao thì khả năng đảo chiều tăng cao (vào làm 1 ít) chờ break khỏi 
+ đỉnh gần nhất thì mua tiếp
+ + Mẫu hình nến doji: là mẫu hình nến có phần thân nến ngắn và 2 phần râu nên trên và dưới gần bằng nhau và khá dài. Mẫu hình doji này thể hiện sự thiếu quyết đoán trong
+ hành động giá. Doji chân ngắn kho có ý nghĩa, doji chân dài có giá trị nhất, khi phân tích phải kết hợp với khối lượng, doji chân dài mà vol thấp thì ko đáng lưu tâm
+ nếu doji chân dài xuất hiện với vol trung bình và cao thì ý nghĩa đảo chiều rất là lớn, đang ở đáy mà xuất hiện doji thì khả năng đảo chiều tăng ngược lại với ở đỉnh
+ + Mẫu hình Engulfing
+ 
+----Quy trình đánh giá setup ta phải trả lời các câu hỏi sau:
+- Xu hướng của thị trường là tăng hay giảm, hay đi ngang? tại sao bạn chắc chắn về điều đó ?
+- Setup để vào lệnh trong tình huống này là gì ?
+ + Có nến đảo chiều, là nến đảo chiều nào ?, khối lượng ra làm sao ?
+ + Có phải mẫu hình phá vỡ vùng giằng co hay không ?, phá vỡ đó mạnh hay yếu ? mẫu hình loại gì ?
+ + vị trí của setup có xuất hiện tại kháng cự hay hỗ trợ nào không ?
+ + chỉ nên giao dịch khi setup đó có chất lượng cao
+ + giao dịch ít nhưng chất lượng
+ + hạn chế bị ảnh hưởng tâm lí khi giao dịch. Nếu giao dịch liên tục tâm lý sẽ bị ảnh hưởng và không còn tỉnh táo
+ + không ham lợi nhuận mà đặt cược số tiền lớn vào lệnh giao dịch
+ + hãy kiếm tiền 1 cách từ từ, ít nhưng đều
+ 
+----Kỹ thuật sử dụng MA + MACD:
+- Đường trung bình di động là đường chạy mềm mại theo biểu đồ giá, được đo từ mức giá đóng cửa của các nến trong 1 giai đoạn gần nhất
+ + đường trung bình di động được sử dụng để đo lường đà tăng giá hoặc giảm giá hay cũng có thể dùng để xác định những vùng hỗ trợ hay kháng cự thích hợp và hợp lý
+ với tình hình hiện tại.
+ + Đường trung bình di động được ứng dụng trong việc dự đoán hướng giá di chuyển trong tương lai bằng cách nhìn độ nghiêng của nó
+- Đường trung bình đơn giản SMA:
+ + dùng để nhận biết hướng đi của xu hướng đường giá 
+ + để phát hiện những tín hiệu mua và bán
+ + SMA(X) được tính bằng cách lấy tổng giá đóng cửa của một giai đoạn X trước đó rồi chia lại cho X.
+	ví dụ: SMA(5) trên biểu đồ 1 giờ, thì cộng 5 mức giá đóng cửa gần nhất của 5 giờ và chia lại cho 5
+ + Thầy hay dùng MA(20) và MA(10)
+ + Công dụng tối ưu của MA là không ghi lại sự dao động răng cưa hằng ngày mà tạo ra một đường gần như là thẳng để NDT nhận định xu hướng, đường đi của giá ngay khi nhìn trên chart
+ + Dùng MA200 cho công việc mua bán dài hạn M1, MA50 để biết xu hướng mua bán ở trung hạn. Còn EMA5, MA20 dùng cho mua bán trong thời gian ngắn hạn D1
+ 
+- Nguyên tắc sử dụng MA:
+ + Sau khi đường MA đi xuống 1 thời gian, nó dần nằm ngang, nếu mà giá cắt lên trên đường MA => giá tăng sau 1 thời gian giảm giá
+ + Giá cắt qua đường MA khi cả 2 đều có xu hướng đi lên => giá tăng tốc độ, tăng giá nhiều hơn bình thường.
+ + Khi giá rơi xuống, chạm nhưng không xuyên qua đường MA => giá điều chỉnh và sẽ lại tiếp tục xu hướng tăng
+ + Khi giá xuyên qua đường MA, nhưng đường MA vẫn còn xu hướng đi lên rõ rệt. Giá giảm tốc độ tăng nhưng nhìn chung nó vẫn còn xu hướng đi lên
+ + Khi giá giảm quá xa đường MA. Giá đang bị giảm quá đà, lúc này giá có xu hướng phục hồi trở lại đường MA
+
+- Giao dịch theo sự giao cắt giữa giá và MA
+ + Giao dịch mua: MA20 đang phải có xu hướng đi lên hoặc đi ngang, Mua khi giá vượt lên trên MA20 và cây nên sau test lại không cắt xuống dưới
+ + Giao dịch bán: MA20 phải có xu hướng đi xuống, Bán khi cây nến cắt xuỗng dưới MA20 và cây nến sau test lại không vượt lên trở lại được. Cây nến test đó 
+ không phải cây nến đảo chiều 
+	
+
+
+
+
+
+VNI 1260 1280 kháng cự
+
+- Đáy khi nước ngoài mua mạnh(mỗi phiên 15-16 nghìn tỉ), blue chip dẫn dắt, t2, t3 ai cũng được chia tiền
+- HPG tầm 22 trung hạn dưới 20 dài hạn
+- VHM khó vượt 40-> nhưng cũng khó giảm sâu hơn(tự nhận định)

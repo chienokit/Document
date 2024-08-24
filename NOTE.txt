@@ -5,8 +5,11 @@ pass icivet:
 Vukhanhngoc1
 Vuhuuchien93
 
+mbs: XE9400 pass: wvk4lcgE
+
 108k/1h
-- Tăng ca: 3 9 10 11 14 15 16 17 18 20 21 22 23
+- Tăng ca: 1 2 4 6 8 9 10 11 12 13 17 18 19 22 24 25
+- Tăng ca: 5 6 7 8 9 12 13 14 15 17 19 20
 
 **BACKEND
 request -> cmd -> domain(xử lý logic) -> Service(chỉ xử lý lưu xuống DB)
@@ -47,16 +50,9 @@ sẽ xóa id của khách hàng chọn lại đi để backend kiểm tra theo i
 
 
 
-v0900902 66
-v0507223
-
-
-
-96606
-
-v0518330 017894
-
-v0518340 005860
+- Java:
+	+ Trong trường hợp so sánh 1 giá trị có thể có giá trị là null thì ta sẽ đặt giá trị đó ở phía sau của equals vì trong java nếu so sánh null với 1 giá trị khác thì sẽ xảy
+	ra lỗi null pointer, còn khi so sánh với null thì java sẽ tự động chuyển về so sánh với false
 
 
 
@@ -114,6 +110,33 @@ bơi Angular cho mỗi request khi nó được thực hiện, các công việc
 sửa lại hàm exportAllCustomerIsStaying để fillter theo mã chi phí với bộ phận vừa gửi lên
 
 - đã thêm 1 quyền booking:report mai bảo dũng thêm vào chỗ báo cáo, và test lại
+
+
+
+
+
+- Về nơi cư trú
+
+- Về thu nhập:
+	+ không có thu nhập phải nộp thuế hàng tháng
+
+- Về tình trạng sở hữu nhà ở
+	+ Chưa có nhà ở thuộc sở hữu
+	
+	
+
+
+
+
+Thứ nhất, người phụ thuộc là cha mẹ phải là người ngoài độ tuổi lao động, đối với lao động nam là 60 tuổi 09 tháng và lao động nữ là 56 tuổi (năm 2023) xét trong điều kiện lao động bình thường.
+
+4,597
+
+4780
+
+
+pdr
+dxg
 
 
 
