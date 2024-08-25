@@ -148,10 +148,47 @@ và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, c
  + Khi giá giảm quá xa đường MA. Giá đang bị giảm quá đà, lúc này giá có xu hướng phục hồi trở lại đường MA
 
 - Giao dịch theo sự giao cắt giữa giá và MA
- + Giao dịch mua: MA20 đang phải có xu hướng đi lên hoặc đi ngang, Mua khi giá vượt lên trên MA20 và cây nên sau test lại không cắt xuống dưới
+ + Giao dịch mua: MA20 đang phải có xu hướng đi lên hoặc đi ngang, Mua khi giá vượt lên trên MA20 và cây nên sau test lại không cắt xuống dưới. Trong xu hướng tăng mua khi giá
+điều chỉnh về tới đường MA20
  + Giao dịch bán: MA20 phải có xu hướng đi xuống, Bán khi cây nến cắt xuỗng dưới MA20 và cây nến sau test lại không vượt lên trở lại được. Cây nến test đó 
- không phải cây nến đảo chiều 
+ không phải cây nến đảo chiều, trong xu hướng giảm bán khi giá hồi phục tăng lên tới đường MA20
+- MACD: (MACD được tính toán bằng cách lấy sự khác biệt giữa hai đường trung bình động, Sự khác biệt giữa đường trung bình động hàm lượng 12 kỳ (EMA12) và đường trung bình động hàm lượng 26 kỳ (EMA26))
+ + MACD = EMA12 − EMA26
+ + Đường tín hiệu: Đây là đường trung bình động của đường MACD, thường là EMA của MACD với kỳ hạn 9. Đường Signal được sử dụng để tạo ra tín hiệu mua và bán.
+ + Trong xu hướng tăng đường MACD sẽ nằm trên đường tin hiệu, trong xu hướng giảm đường MACD sẽ nằm dưới đường tín hiệu
+ + Đường MACD được  vẽ với trục giữa là mốc 0, không có giới hạn giá trị về 2 phía dưới 0 và trên 0
+ + Khi đường MACD trên vạch 0, có nghĩa là EMA 12 đang ở trên EMA26, khi MACD dưới vạch 0 thì có nghĩa là EMA12 đang ở dưới EMA26.
+ + Đường MACD khi ở trên mức 0 và trên mức 0 càng nhiều có nghĩa là khoảng cách dương giữa EMA12 và EMA26 càng lớn
+ + Hội tụ và phân kì giúp nhận biết những tín hiệu cảnh báo khi thị trường thay đổi xu thế, các tín hiệu giao dịch, tham gia hoặc rút lui khỏi thị trường. Các nhà giao dịch chỉ nhìn nến và khối lượng
+   dễ bị dính đỉnh vì người ta không nhìn thấy các tín hiệu phân kì và hội tụ
+ + Khi đường biểu diễn các chỉ số MACD,RSI di chuyển cùng chiều (tăng, giảm) với đường giá => hiện tượng hội tụ
+ + Khi MACD, RSI di chuyển ngược chiều với đường giá => hiện tượng phân kỳ
+ + Phân kỳ dương: đường chỉ số tăng, đường giá giảm
+ + Phân kỳ âm: đường chỉ số giảm, đường giá tăng
+
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
