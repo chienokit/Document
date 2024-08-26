@@ -152,6 +152,7 @@ và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, c
 điều chỉnh về tới đường MA20
  + Giao dịch bán: MA20 phải có xu hướng đi xuống, Bán khi cây nến cắt xuỗng dưới MA20 và cây nến sau test lại không vượt lên trở lại được. Cây nến test đó 
  không phải cây nến đảo chiều, trong xu hướng giảm bán khi giá hồi phục tăng lên tới đường MA20
+
 - MACD: (MACD được tính toán bằng cách lấy sự khác biệt giữa hai đường trung bình động, Sự khác biệt giữa đường trung bình động hàm lượng 12 kỳ (EMA12) và đường trung bình động hàm lượng 26 kỳ (EMA26))
  + MACD = EMA12 − EMA26
  + Đường tín hiệu: Đây là đường trung bình động của đường MACD, thường là EMA của MACD với kỳ hạn 9. Đường Signal được sử dụng để tạo ra tín hiệu mua và bán.
@@ -163,8 +164,22 @@ và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, c
    dễ bị dính đỉnh vì người ta không nhìn thấy các tín hiệu phân kì và hội tụ
  + Khi đường biểu diễn các chỉ số MACD,RSI di chuyển cùng chiều (tăng, giảm) với đường giá => hiện tượng hội tụ
  + Khi MACD, RSI di chuyển ngược chiều với đường giá => hiện tượng phân kỳ
- + Phân kỳ dương: đường chỉ số tăng, đường giá giảm
- + Phân kỳ âm: đường chỉ số giảm, đường giá tăng
+ + Phân kỳ dương: đường chỉ số tăng, đường giá giảm,(xem xét mua)
+ + Phân kỳ âm: đường chỉ số giảm, đường giá tăng(xem xét bán)
+ + đường chỉ số được vẽ bằng cách nối 2 đỉnh MACD, đường giá được vẽ bằng cách nối 2 đỉnh của giá
+ 
+- Giao dịch theo sự giao cắt - kết hợp MA:
+ + Mua khi: đường MACD cắt qua đường tín hiệu đồng thời giá vượt qua MA20 và MA20 phải đang đi ngang hoặc hướng lên
+ + Bán khi: đường MACD cắt xuống dưới đường tín hiệu đồng thời giá cắt xuống dưới MA20
+ 
+- Giao dịch theo hội tụ và phân kì:
+ * Với giao dịch mua:
+  + Khi đường MACD tạo phân kì dương 2 đoạn trở lên với đường giá. Mua mạnh khi phân kì dương và MACD lên gần sát 0 hoặc vượt lên trên 0
+  + Mua xong tiếp tục giữ vị thế mua (không bán) khi MACD và đường giá cùng tăng
+  + Không mua khi đường giá tạo đỉnh sao cao hơn đỉnh trước mà MACD tạo đỉnh sau thấp hơn đỉnh trước(nguyên tắc vô cùng quan trọng để tránh việc mua ở đỉnh)
+ * Với giao dịch bán:
+  + Bán khi MACD tạo phân kì âm 2 đoạn trở lên với đường giá. Bán mạnh khi phân kì âm và MACD giảm xuống sát 0 hoặc cắt xuống dưới 0
+  + Bán xong tiếp tục giữ vị thế không mua nữa
 
 	
 
