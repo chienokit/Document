@@ -180,12 +180,35 @@ và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, c
  * Với giao dịch bán:
   + Bán khi MACD tạo phân kì âm 2 đoạn trở lên với đường giá. Bán mạnh khi phân kì âm và MACD giảm xuống sát 0 hoặc cắt xuống dưới 0
   + Bán xong tiếp tục giữ vị thế không mua nữa
+  
+- MFI: Chỉ số lưu lượng tiền: là chỉ số kỹ thuật dùng để đánh giá cường độ của dòng tiền bằng cách so sánh giá tăng tích cực và tiêu cực trong 1 khoảng
+thời gian nhất định, có tính đến khối lượng. Do chỉ số này đo lường cả biến động giá và khối lượng => cho phép chúng ta biết là nhà đầu tư quan tâm nhiều hay ít đến cổ phiếu.
+MFI được sử dụng kết hợp giữa giá và khối lượng giao dịch làm cơ sở để nhận biết tình trạng của thị trường đang trong giai đoạn tích luỹ hay phân phối
+thông qua khu vực quá mua(overbought) và cùng quá bán (orversold). Đây là những tín hiệu để xác nhận đường xu hướng giá và đưa ra những cảnh báo về khả năng
+đảo chiều của đường giá
+ + Cách sử dụng tương tự MACD, giá tăng thì chỉ số dòng tiền phải tăng thì mới hợp lí, giá tăng mà chỉ số dòng tiền lại giảm => đẩy giá lên để bán => mình cũng phải bán
+ + Giá sideway nhưng mà chỉ số dòng tiền lại tăng(đáy sau cao hơn đáy trước, đỉnh sau cao hơn đỉnh trư => giai đoạn tích luỹ(gom hàng chờ đẩy giá) mình cũng nên mua
+ 
+- Dải Bollinger bands: là công cụ kết hợp giữa đường trung bình động và độ lệch chuẩn nhằm đưa ra dự báo về khả năng dao động của cổ phiếu, Cơ sở của 
+dải bollinger brands là giá cả có xu hướng giao động trong một khoảng giới hạn nhất định, do đó John Bollinger đã phát triển ra một dải gồm 3 đường trên cùng
+đồ thị giá của cổ phiếu: đường trung bình động đơn giản nằm ở chính giữa và 2 dải giới hạn trên và dưới với độ lệch chuẩn là 2 so với đường trung bình động giản đơn.
+Vì độ lệch tiêu chuẩn là thước đo dao động, nên các dải cũng tự điều chỉnh: mở rộng trong các thị trường dao động mạnh và thu  hẹp trong các thị trường ổn định hơn
+Có 3 thành phần cơ bản trong chỉ báo Bollinger brands:
+ + Đường trung bình (Moving Average): sử dụng mặc định 20 phiên, SMA20
+ + Dải trên(Upper band): dải trên thường có độ lệch chuẩn là 2, được tính toán từ dữ liệu giá 20 phiên. Có vị trí nằm trên đường trung bình SMA20
+ + Dải dưới (Lower brand): dải dưới thường có độ lệch chuẩn là 2 và nằm dưới đường trun bình SMA20
+- Các ứng dụng của bolliger band:
+ + Chỉ ra thị trường đang ở tình trạng quá mua hoặc quá bán, ở gần biên dưới thì là quá mua, ngược lại quá bán
+ + Cảnh báo dấu hiệu biến động lớn: khi 2 biên ngày càng hẹp lại(do dao động giá nhỏ đi), thông thường cảnh báo khả năng giá biến động sắp tới
+- Cách sử dụng đường bolliger band:
+ + Dấu hiệu mua: Khi thấy 2 biên xiết chặt, thắt chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn)
+ + Khi tăng 1 một mạch từ band dưới lên band trên không nghỉ ngơi tích luỹ thì thường nó sẽ lùi về giữa
 
 	
 
 
-
-
+- Còn nhịp nhỏ của bất động sản canh chốt lời 
+pdr 23.5, 23.6 chốt
 
 
 
