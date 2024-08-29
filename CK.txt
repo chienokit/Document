@@ -125,6 +125,10 @@ và hầu hết các sóng tăng bắt đầu từ ngày bùng nổ theo đà, c
  + hạn chế bị ảnh hưởng tâm lí khi giao dịch. Nếu giao dịch liên tục tâm lý sẽ bị ảnh hưởng và không còn tỉnh táo
  + không ham lợi nhuận mà đặt cược số tiền lớn vào lệnh giao dịch
  + hãy kiếm tiền 1 cách từ từ, ít nhưng đều
+ + Ghi nhật ký giao dịch hằng ngày
+ + Luôn có kế hoạch giao dịch cụ thể trước phiên giao dịch
+ + cắt lỗ nhanh nhất có thể khi thị trường đảo chiều
+ + Khi cổ phiếu dẫn đầu đạt đỉnh là lúc cân nhắc rời khỏi thị trường
  
 ----Kỹ thuật sử dụng MA + MACD:
 - Đường trung bình di động là đường chạy mềm mại theo biểu đồ giá, được đo từ mức giá đóng cửa của các nến trong 1 giai đoạn gần nhất
@@ -203,6 +207,28 @@ Có 3 thành phần cơ bản trong chỉ báo Bollinger brands:
 - Cách sử dụng đường bolliger band:
  + Dấu hiệu mua: Khi thấy 2 biên xiết chặt, thắt chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn)
  + Khi tăng 1 một mạch từ band dưới lên band trên không nghỉ ngơi tích luỹ thì thường nó sẽ lùi về giữa
+ 
+- Chỉ số RSI: RSI cho biết tỉ lệ giữa bình quân mức tăng của giá đóng cửa qua X ngày so với Bình quân mức giảm giá đóng cửa X ngày
+ *Cách sử dung:
+  + Các mức của RSI: 80% mức mà nhà đầu tư mua quá nhiều(overbought), 20% là mức nhà đầu tư bán quá nhiều(oversold). Mua khi thị trường ở mức orversold và bán khi
+  overbought. Điều này chỉ áp dụng cho 1 thời kỳ biến động con khi đang hình thành 1 xu hướng thì sẽ không đúng
+  + Cách sử dụng giống như MACD, MFI cũng phân kì và hội tụ	nhưng chỉ dùng trong trường hợp chưa rõ xu hướng
+
+- Leading indicator cho tín hiệu trước 1 xu hướng mới hoặc dấu hiệu đổi chiều(tín hiệu sớm MFI, RSI)
+- Lagging indicator cho tín hiệu sau khi xu hướng đã bắt đầu và thông báo như là: "Chào bạn, hãy chú ý, xu hướng đã bắt đầu và bạn đang bỏ lỡ nó"(tín hiệu chậm)
+bao gồm MA, MACD 
+- Khi sử dụng leading indicator chúng ta sẽ trải nghiệm rất nhiều tín hiệu giả, leading indicator nổi tiếng cho tín hiệu không có thật đánh lừa chúng ta
+- Sự lựa chọn khác là sử dụng công cụ không cho tín hiệu giả đó là lagging indicator.
+- Lagging indicator chỉ đưa tín hiệu sau khi giá thay đổi rõ ràng và tạo thành một xu hướng. Nhược điểm của nó là chúng ta sẽ vào lện chậm hơn  
+- Chúng đều có thể hỗ trợ cũng như xung đột với nhau. Do đó chúng ta không nên chỉ sử dụng một chỉ báo nào mà chúng ta cần hiểu được những ưu điểm và nhược
+
+=> Chỉ số nào giúp ta nhận biết một xu  hướng? => đó chính là MA và MACD, những chỉ số này sẽ giúp nhận biết xu hướng một khi nó được thành lập
+giá vào lệnh có thể trễ nhưng ngược lại ít khi cho tín hiệu sai => phải kết hợp các tín hiệu mua của MA và MACD đã note
+
+Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu đồng thời MA10 cắt lên MA20 => đây là tín hiệu mua
+
+- Sáng kiểm tra sổ lệnh thấy kê tới đâu nhiều thì nên chốt để xuống dưới vào tiếp
+
 
 	
 
@@ -232,8 +258,3 @@ pdr 23.5, 23.6 chốt
 
 
 
-VNI 1260 1280 kháng cự
-
-- Đáy khi nước ngoài mua mạnh(mỗi phiên 15-16 nghìn tỉ), blue chip dẫn dắt, t2, t3 ai cũng được chia tiền
-- HPG tầm 22 trung hạn dưới 20 dài hạn
-- VHM khó vượt 40-> nhưng cũng khó giảm sâu hơn(tự nhận định)
