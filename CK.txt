@@ -1,5 +1,7 @@
+Ngày đầu tiên giao dịch: 5/8/2024
 Nạp: 100
 nợ phong 10
+
 
 - eps là lãi cổ tức của 1 cổ phiếu (nếu được chia hết): bằng tổng lợi nhuận sau thuề - cổ tức cổ phiếu ưu đãi chia cho tổng số lượng cổ phiếu đang lưu hành
 - P/E: là chỉ số mô tả để kiếm được 1 đồng cổ tức ta cần bao nhiêu đồng vốn, nó được tính bằng giá cổ phiếu chia eps
@@ -230,7 +232,38 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
 - Sáng kiểm tra sổ lệnh thấy kê tới đâu nhiều thì nên chốt để xuống dưới vào tiếp
 
 
-	
+
+
+-----------------------Tổng hợp tín hiệu mua-------------------------
+- Khi vừa ở xu hướng giảm mạnh:
+ + MA20 đang đi ngang hoặc hướng lên, đồng thời có 1 cây nến vượt lên trên MA20 với vol lớn, MA10 cắt lên trên MA20, MACD cắt đường tín hiệu hướng lên
+ + MACD, RSI, MFI tạo phân kì dương với đường giá thì mua( đỉnh chỉ số đỉnh sau lớn hơn đỉnh trước mà giá lại đang giảm)
+ + Khi thấy 2 biên của bollinger band xiết chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn)
+ + các tín hiêu thường sẽ chậm nhưng chắc chắn, ta có thể mua sớm hơn dựa vào phân tích nến, trong xu hướng giảm có 1 cây nến hummer với vol lớn => có thể mua ít
+
+ 
+ -----------------------Tổng hợp tín hiệu bán-------------------------
+- Khi đang ở xu hướng tăng:
+ + Khi gặp kháng cự
+ + MACD cắt xuống dưới đường tín hiệu, giá cắt qua đường MA20
+ + MA10 cắt xuống dưới MA20
+ + MA20, MACD hướng xuống dưới
+ + MACD, RSI, MFI tạo phân kì âm với đường giá thì bán( đỉnh chỉ số đỉnh sau thấp hơn đỉnh trước mà giá lại tăng)
+ + Các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể bán sớm hơn dựa vào phân tích nến, trong xu hương tăng nếu xuất hiện cây nến shooting star và doji
+   với vol lớn thì cũng nên bán 
+   
+   
+-----------------------Lướt sóng khi đang trong xu hướng tăng(đường MA20, MACD vẫn đang hướng lên)-------------------------
+- Khi đang trong xu hướng tăng nếu gặp kháng cự yếu thì giá sẽ giảm về 1/4 của cây tăng mạnh => canh bán ở điểm kháng cự yếu đó và mua lại ở điểm giảm 1/4 cây tăng trước đó
+và bán ở điểm kháng cự mới
+- Khi đang trong xu hướng tăng nếu gặp kháng cự trung bình thì giá sẽ giảm về đường MA10  => canh bán ở điểm kháng cự trung bình đó và mua lại ở điểm giá xuống gần MA10
+và bán khi quay lại kháng cự trung bình đó
+- Khi đang trong xu hướng tăng nếu gặp kháng cự mạnh(nhiều nến nhỏ tích luỹ lâu) thì giá sẽ giảm về MA20 => canh bán ở điểm kháng cự mạnh và mua lại ở điểm giá xuống gần
+MA20, nếu giá tiếp tục xuyên qua MA20 vol trung bình và MACD cắt xuống dưới đường tín hiệu lập tức cắt lỗ. Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) 
+hoặc chờ đợi có các tín hiệu tổng hợp bán ở phía trên nhưng tín hiệu này thường sẽ chậm nên trong trường hợp này ta nên dựa vào phân tích 
+nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán, nếu xuất hiện nến shooting star vol trung bình trở lên => bán 
+
+
 
 
 - Còn nhịp nhỏ của bất động sản canh chốt lời 
