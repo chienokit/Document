@@ -234,43 +234,48 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
 
 
 
------------------------Tổng hợp tín hiệu mua-------------------------
+-----------------------Tổng hợp tín hiệu mua(chắc chắn -> chắc chắn 1 phần)-------------------------
 - Khi vừa ở xu hướng giảm mạnh:
- + MA20 đang đi ngang hoặc hướng lên, đồng thời có 1 cây nến vượt lên trên MA20 với vol lớn, MA10 cắt lên trên MA20, MACD cắt đường tín hiệu hướng lên
- + MACD, RSI, MFI tạo phân kì dương với đường giá thì mua( đỉnh chỉ số đỉnh sau lớn hơn đỉnh trước mà giá lại đang giảm)
- + Khi thấy 2 biên của bollinger band xiết chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn)
- + các tín hiêu thường sẽ chậm nhưng chắc chắn, ta có thể mua sớm hơn dựa vào phân tích nến, trong xu hướng giảm có 1 cây nến hummer với vol lớn => có thể mua ít
+ + MA20 đang đi ngang hoặc hướng lên, đồng thời có 1 cây nến vượt lên trên MA20 với vol lớn và không gặp kháng cự luôn, MA10 cắt lên trên MA20,
+ MACD cắt đường tín hiệu hướng lên => tổng  hợp tất cả các tín hiệu ok thì mua mạnh
+ + MACD, RSI, MFI tạo phân kì dương( đỉnh chỉ số đỉnh sau lớn hơn đỉnh trước mà giá lại đang giảm) hoặc hội tụ(cùng hướng lên) với đường giá thì mua (mua sớm mua ít)
+ + Khi thấy 2 biên của bollinger band xiết chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn) (mua ít)
+ + Ghi Chú: các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể mua sớm hơn dựa vào phân tích nến, trong xu hướng giảm có 1 cây nến hummer với vol lớn => có thể mua ít
 
  
- -----------------------Tổng hợp tín hiệu bán-------------------------
+ -----------------------Tổng hợp tín hiệu bán(chắc chắn 1 phần -> chắc chắn)-------------------------
 - Khi đang ở xu hướng tăng:
  + Khi gặp kháng cự
- + MACD cắt xuống dưới đường tín hiệu, giá cắt qua đường MA20
- + MA10 cắt xuống dưới MA20
- + MA20, MACD hướng xuống dưới
+ + MACD cắt xuống dưới đường tín hiệu
  + MACD, RSI, MFI tạo phân kì âm với đường giá thì bán( đỉnh chỉ số đỉnh sau thấp hơn đỉnh trước mà giá lại tăng)
- + Các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể bán sớm hơn dựa vào phân tích nến, trong xu hương tăng nếu xuất hiện cây nến shooting star và doji
+ + giá cắt qua đường MA20 với 1 cây vol lớn, MA10 cắt xuống dưới MA20
+ + MA20, MACD hướng xuống dưới
+ + Ghi chú: Các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể bán sớm hơn dựa vào phân tích nến, trong xu hương tăng nếu xuất hiện cây nến shooting star và doji
    với vol lớn thì cũng nên bán 
+
    
    
------------------------Lướt sóng khi đang trong xu hướng tăng(đường MA20, MACD vẫn đang hướng lên)-------------------------
-- Khi đang trong xu hướng tăng nếu gặp kháng cự yếu thì giá sẽ giảm về 1/4 của cây tăng mạnh => canh bán ở điểm kháng cự yếu đó và mua lại ở điểm giảm 1/4 cây tăng trước đó
-và bán ở điểm kháng cự mới
-- Khi đang trong xu hướng tăng nếu gặp kháng cự trung bình thì giá sẽ giảm về đường MA10  => canh bán ở điểm kháng cự trung bình đó và mua lại ở điểm giá xuống gần MA10
+-----------------------Lướt sóng khi đang trong xu hướng tăng(đường MA20 phải hướng lên yếu tố chính, MACD hướng lên càng tốt)-------------------------
+- Khi đang trong xu hướng tăng nếu gặp kháng cự yếu(1-3 cây nến xây) thì giá có khả năng sẽ giảm về 1/4 của cây tăng mạnh, nhưng cũng khả năng tăng qua luôn 
+=> canh bán ở điểm kháng cự yếu đó và mua lại ở điểm giảm 1/4 cây tăng trước đó và bán ở điểm kháng cự mới
+- Khi đang trong xu hướng tăng nếu gặp kháng cự trung bình(4 - 6 cây nến) thì giá sẽ giảm về đường MA10 => canh bán ở điểm kháng cự trung bình đó và mua lại ở điểm giá xuống gần MA10
 và bán khi quay lại kháng cự trung bình đó
-- Khi đang trong xu hướng tăng nếu gặp kháng cự mạnh(nhiều nến nhỏ tích luỹ lâu) thì giá sẽ giảm về MA20 => canh bán ở điểm kháng cự mạnh và mua lại ở điểm giá xuống gần
-MA20, nếu giá tiếp tục xuyên qua MA20 vol trung bình và MACD cắt xuống dưới đường tín hiệu lập tức cắt lỗ. Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) 
-hoặc chờ đợi có các tín hiệu tổng hợp bán ở phía trên nhưng tín hiệu này thường sẽ chậm nên trong trường hợp này ta nên dựa vào phân tích 
-nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán, nếu xuất hiện nến shooting star vol trung bình trở lên => bán 
+- Khi đang trong xu hướng tăng nếu gặp kháng cự mạnh(nhiều nến nhỏ tích luỹ lâu > 6) thì giá sẽ giảm về MA20 => canh bán ở điểm kháng cự mạnh và mua lại ở điểm giá xuống gần
+MA20, tuy nhiên nếu giá tiếp tục xuyên qua MA20 với vol trung bình, MA10 cắt xuống dưới MA20 và MACD cắt xuống dưới đường tín hiệu lập tức cắt lỗ. 
+Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) hoặc chờ đợi có các tín hiệu tổng hợp bán ở phía trên nhưng tín hiệu này thường sẽ chậm nên trong trường hợp này ta nên
+dựa vào phân tích nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán,
+nếu xuất hiện nến shooting star vol trung bình trở lên => bán 
 
 
 
 
 - Còn nhịp nhỏ của bất động sản canh chốt lời 
+nvl: 14.5 bán
 pdr 23.5, 23.6 chốt
+- bvh: 47.3 bán
 
 
-
+Người nhận thông báo mặc định
 
 
 
