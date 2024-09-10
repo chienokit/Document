@@ -269,6 +269,9 @@ nếu xuất hiện nến shooting star vol trung bình trở lên => bán
 
 
 
+Bvh bị mất MA20 nhưng vol chưa lớn => xem xét 1 2 phiên tiếp theo nếu test lại không thành công thì xem xét bán
+
+
 - Còn nhịp nhỏ của bất động sản canh chốt lời 
 nvl: 14.5 bán
 pdr 23.5, 23.6 chốt
