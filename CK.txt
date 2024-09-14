@@ -238,6 +238,7 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
 - Khi vừa ở xu hướng giảm mạnh:
  + MA20 đang đi ngang hoặc hướng lên, đồng thời có 1 cây nến vượt lên trên MA20 với vol lớn và không gặp kháng cự luôn, MA10 cắt lên trên MA20,
  MACD cắt đường tín hiệu hướng lên => tổng  hợp tất cả các tín hiệu ok thì mua mạnh
+ + MACD cắt đường tín hiệu hướng lên
  + MACD, RSI, MFI tạo phân kì dương( đỉnh chỉ số đỉnh sau lớn hơn đỉnh trước mà giá lại đang giảm) hoặc hội tụ(cùng hướng lên) với đường giá thì mua (mua sớm mua ít)
  + Khi thấy 2 biên của bollinger band xiết chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn) (mua ít)
  + Ghi Chú: các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể mua sớm hơn dựa vào phân tích nến, trong xu hướng giảm có 1 cây nến hummer với vol lớn => có thể mua ít
@@ -248,6 +249,7 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
  + Khi gặp kháng cự
  + MACD cắt xuống dưới đường tín hiệu
  + MACD, RSI, MFI tạo phân kì âm với đường giá thì bán( đỉnh chỉ số đỉnh sau thấp hơn đỉnh trước mà giá lại tăng)
+ + Giá cắt xuống MA20 với với 1 cây vol bình thường cây sau test lại không lên được MA20
  + giá cắt qua đường MA20 với 1 cây vol lớn, MA10 cắt xuống dưới MA20
  + MA20, MACD hướng xuống dưới
  + Ghi chú: Các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể bán sớm hơn dựa vào phân tích nến, trong xu hương tăng nếu xuất hiện cây nến shooting star và doji
@@ -264,21 +266,32 @@ và bán khi quay lại kháng cự trung bình đó
 MA20, tuy nhiên nếu giá tiếp tục xuyên qua MA20 với vol trung bình, MA10 cắt xuống dưới MA20 và MACD cắt xuống dưới đường tín hiệu lập tức cắt lỗ. 
 Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) hoặc chờ đợi có các tín hiệu tổng hợp bán ở phía trên nhưng tín hiệu này thường sẽ chậm nên trong trường hợp này ta nên
 dựa vào phân tích nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán,
-nếu xuất hiện nến shooting star vol trung bình trở lên => bán 
+nếu xuất hiện nến shooting star vol trung bình trở lên => bán
+
+- Trong trường hợp không có kháng cự ở gần thì nếu giá vượt qua biên trên của Bollinger band thì bán, và mua lại ở MA10 hoặc MA20 tuỳ tình hình
+
+
+=> bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 3% thì nên mua, nếu chót đã mua chờ ngày T+2,
+ nếu 2 cây test vẫn ko xanh, hoặc giảm xuống hơn nửa => cắt
 
 
 
-
-Bvh bị mất MA20 nhưng vol chưa lớn => xem xét 1 2 phiên tiếp theo nếu test lại không thành công thì xem xét bán
-
-
-- Còn nhịp nhỏ của bất động sản canh chốt lời 
-nvl: 14.5 bán
-pdr 23.5, 23.6 chốt
-- bvh: 47.3 bán
+pdr 22.4 đỉnh cũ bán, 
+pdr 23.5, 23.6 kháng cự mạnh
 
 
-Người nhận thông báo mặc định
+theo dõi vhm nếu giá về M20 xem xét
+theo dõi hpg xem có cây break hay không vì đang ở kháng cự mạnh, MA20 bắt đầu có dấu hiệu đi ngang dần, macd vẫn đang trên đường tín hiệu
+theo dõi dbc nếu giá về M20 xem xét
+
+30.8 34.4 11.6%
+32.6 31.58 -4%
+21.1 19.3 -9%
+20.3 21.5 5.9%
+22.3 20.9 -6.3%
+13.5 13 -1.4%
+
+
 
 
 
