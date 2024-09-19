@@ -1,5 +1,5 @@
 Ngày đầu tiên giao dịch: 5/8/2024
-Nạp: 100
+Nạp: 110
 nợ phong 10
 
 
@@ -271,25 +271,34 @@ nếu xuất hiện nến shooting star vol trung bình trở lên => bán
 - Trong trường hợp không có kháng cự ở gần thì nếu giá vượt qua biên trên của Bollinger band thì bán, và mua lại ở MA10 hoặc MA20 tuỳ tình hình
 
 
+=> đối với những cây break là những cây nến giá vượt qua M20, hoặc đỉnh gần nhất + vol lớn => mua khi giá qua MA20 hoặc đỉnh gần nhất, mua 50% ,
+ còn nếu chưa kịp mua thì cần xem 2 cây tiếp theo nếu tích luỹ tốt vol nhỏ và xanh thì mua mới hoặc mua thêm, 
+ còn nếu 2 cây test sau đó mà giá giảm quá nửa cây break + vol lớn => bán
+ 
+=> Nhớ là 1 cây đã break mà không mua kịp lúc break qua điểm thì không được mua ở đỉnh cây nến mà phải chờ 2 cây test tiếp theo tích luỹ như thế nào
+
 => bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 3% thì nên mua, nếu chót đã mua chờ ngày T+2,
  nếu 2 cây test vẫn ko xanh, hoặc giảm xuống hơn nửa => cắt
 
+=> cây đã xuyên thủng MA20 nếu cây sau test lại không lên được thì bán ngay
+
+=> nên bán ở cuối phiên, khi nến gần được hình thành rõ ràng vì trong phiên có thể biến động rất mạnh => lúc này ta có thể nhìn nhận xu hướng 1 cách rõ ràng
 
 
-pdr 22.4 đỉnh cũ bán, 
-pdr 23.5, 23.6 kháng cự mạnh
 
 
-theo dõi vhm nếu giá về M20 xem xét
+
+
+
+MBB vừa mua đã vượt MA20 nhưng là cây nến doji và vol không lớn lắm => cần theo dõi 2 cây nến tiếp theo nếu 2 cây tiếp vol không bật lên được hoặc vol nhỏ thì cắt
+cây tiếp theo đỏ vol nhỏ chờ cây ngày 20/9 nếu đên cuối phiên không có gì đột biến thì cắt
+
+
 theo dõi hpg xem có cây break hay không vì đang ở kháng cự mạnh, MA20 bắt đầu có dấu hiệu đi ngang dần, macd vẫn đang trên đường tín hiệu
-theo dõi dbc nếu giá về M20 xem xét
+ctr
 
-30.8 34.4 11.6%
-32.6 31.58 -4%
-21.1 19.3 -9%
-20.3 21.5 5.9%
-22.3 20.9 -6.3%
-13.5 13 -1.4%
+
+
 
 
 
