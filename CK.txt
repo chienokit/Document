@@ -268,8 +268,6 @@ Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) hoặc chờ đ�
 dựa vào phân tích nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán,
 nếu xuất hiện nến shooting star vol trung bình trở lên => bán
 
-- Trong trường hợp không có kháng cự ở gần thì nếu giá vượt qua biên trên của Bollinger band thì bán, và mua lại ở MA10 hoặc MA20 tuỳ tình hình
-
 
 => đối với những cây break là những cây nến giá vượt qua M20, hoặc đỉnh gần nhất + vol lớn => mua khi giá qua MA20 hoặc đỉnh gần nhất, mua 50% ,
  còn nếu chưa kịp mua thì cần xem 2 cây tiếp theo nếu tích luỹ tốt vol nhỏ và xanh thì mua mới hoặc mua thêm, 
@@ -277,7 +275,7 @@ nếu xuất hiện nến shooting star vol trung bình trở lên => bán
  
 => Nhớ là 1 cây đã break mà không mua kịp lúc break qua điểm thì không được mua ở đỉnh cây nến mà phải chờ 2 cây test tiếp theo tích luỹ như thế nào
 
-=> bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 3% thì nên mua, nếu chót đã mua chờ ngày T+2,
+=> bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 2% thì nên mua, nếu chót đã mua chờ ngày T+2,
  nếu 2 cây test vẫn ko xanh, hoặc giảm xuống hơn nửa => cắt
 
 => cây đã xuyên thủng MA20 nếu cây sau test lại không lên được thì bán ngay
@@ -285,17 +283,28 @@ nếu xuất hiện nến shooting star vol trung bình trở lên => bán
 => nên bán ở cuối phiên, khi nến gần được hình thành rõ ràng vì trong phiên có thể biến động rất mạnh => lúc này ta có thể nhìn nhận xu hướng 1 cách rõ ràng
 
 
+------------------Lọc cổ phiếu để theo dõi-----------------
+- Tại mỗi phiên giao dịch lọc các cổ có giá vượt MA20 để theo dõi vượt MA20 1 khoảng đủ lớn có thể mua một ít
+- Sau mỗi phiên giao dịch: 
+	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của ngày hôm đó để theo dõi 2 cây nên của ngày tiếp theo
+	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của ngày hôm trước đó để theo dõi cây nến đầu tiên sau khi giá vượt MA20 
+	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của 2 ngày trước đó để theo dõi 2 cây nến sau khi giá vượt MA20 
 
 
 
 
 
-MBB vừa mua đã vượt MA20 nhưng là cây nến doji và vol không lớn lắm => cần theo dõi 2 cây nến tiếp theo nếu 2 cây tiếp vol không bật lên được hoặc vol nhỏ thì cắt
-cây tiếp theo đỏ vol nhỏ chờ cây ngày 20/9 nếu đên cuối phiên không có gì đột biến thì cắt
-
-
-theo dõi hpg xem có cây break hay không vì đang ở kháng cự mạnh, MA20 bắt đầu có dấu hiệu đi ngang dần, macd vẫn đang trên đường tín hiệu
-ctr
+- Theo dõi:
+	+ HPG sau khi đã vượt MA20 và 2 cây test lại như thế nào -> nếu tốt mua ở cây test lại thứ 2 lúc gần cuối phiên
+	+ VND MA20 đang đi ngang, giá đã vượt MA20 với cây vol lớn, chờ đơi 2 cây test hoặc đợi giá vượt đỉnh gần nhất 15.5 thì mua
+	+ GIL giá đã vượt MA20 và đỉnh gần nhất, cây thứ 1 test lại là 1 cây xanh, theo dõi cây tiếp theo
+	+ KBC sau khi vượt MA20 đã test lại 1 cây giá không giảm quá nhiều nhưng vol đang khá lớn so với cây break, theo dõi cây tiếp theo nếu giá vượt đỉnh gần nhất 27.6 mua
+	+ LSS sau khi vượt MA20 đã test lại 1 cây giá không giảm quá nhiều nhưng vol đang khá lớn so với cây break, theo dõi cây tiếp theo nếu giá vượt đỉnh gần nhất 12.5 mua
+	+ HDG giá đã vượt MA20 đang gần đỉnh gần nhất, canh giá vượt đỉnh gần nhất 29.5 thì mua
+	+ VGC giá vượt MA20 với cây vol lớn, cây sau test lại chạm MA20 vol trung bình
+	+ PVD có 1 cây vượt qua MA20 vol lớn, theo dõi 2 cây tiếp theo có tích luỹ trên MA20 hay không 
+	+ SAB có 1 cây vượt qua MA20 với 1 cây khá lớn, theo dõi xem có vượt đỉnh gần nhất 58.8 hay không
+	+ VPG chờ vượt đỉnh gần nhất để mua
 
 
 
