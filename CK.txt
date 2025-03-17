@@ -1,11 +1,21 @@
 Ngày đầu tiên giao dịch: 5/8/2024
-Nạp: 110
 nợ phong 10
 
+Tổng nạp: 118 + 9 + 6 + 1 + 20 + 15 + 10 = 179
 
+2024 tổng vốn: 118 + 9 + 6 + 1= 134
+Hết năm 2024 tài khoản: 148.4
+Năm 2024: lãi 10.5%
+
+2025 tổng vốn: 148.4 + 20 + 15 + 10= 193.4
+
+
+
+
+- Vốn chủ sở hữu = tổng tài sản - tổng nợ phải trả
 - eps là lãi cổ tức của 1 cổ phiếu (nếu được chia hết): bằng tổng lợi nhuận sau thuề - cổ tức cổ phiếu ưu đãi chia cho tổng số lượng cổ phiếu đang lưu hành
 - P/E: là chỉ số mô tả để kiếm được 1 đồng cổ tức ta cần bao nhiêu đồng vốn, nó được tính bằng giá cổ phiếu chia eps
-- Giá trị sổ sách /cp: được tính bằng cách chia tổng giá trị số sách(chưa phải thực tế) của công ty(tổng tài sản - nợ) cho tổng số lượng cổ phiếu đang lưu hành. 
+- Giá trị sổ sách /cp: được tính bằng vốn chủ sở hữu chia tổng khối lượng cổ phiếu đang lưu hành
 - P/B: Chỉ số này so sánh giá thị trường của cổ phiếu với giá trị sổ sách của công ty trên mỗi cổ phiếu. chỉ có tác dụng lúc thị trường khủng hoảng, hoặc là lúc ta mua
 các công ty mà tài sản hữu hình nó đóng vai trò lớn trong mô hình kinh doanh. còn đối với công ty tài sản vô hình nó lớn thì chỉ số này ko còn quá quan trọng
 - ROA:là % giữa lợi nhuận ròng và tổng tài sản chỉ số này cho biết 1 công ty sử dụng tài sản để kiếm lời như thế nào 
@@ -242,11 +252,13 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
  + MACD, RSI, MFI tạo phân kì dương( đỉnh chỉ số đỉnh sau lớn hơn đỉnh trước mà giá lại đang giảm) hoặc hội tụ(cùng hướng lên) với đường giá thì mua (mua sớm mua ít)
  + Khi thấy 2 biên của bollinger band xiết chặt lại + vol nhỏ => dấu hiệu sắp bật tăng break (80% ăn) (mua ít)
  + Ghi Chú: các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể mua sớm hơn dựa vào phân tích nến, trong xu hướng giảm có 1 cây nến hummer với vol lớn => có thể mua ít
+ + RSI < 30(quá bán) có khả năng tạo đáy và đi lên
 
  
  -----------------------Tổng hợp tín hiệu bán(chắc chắn 1 phần -> chắc chắn)-------------------------
 - Khi đang ở xu hướng tăng:
  + Khi gặp kháng cự
+ + RSI > 70(quá mua) có khả năng tạo đáy và đi lên
  + MACD cắt xuống dưới đường tín hiệu
  + MACD, RSI, MFI tạo phân kì âm với đường giá thì bán( đỉnh chỉ số đỉnh sau thấp hơn đỉnh trước mà giá lại tăng)
  + Giá cắt xuống MA20 với với 1 cây vol bình thường cây sau test lại không lên được MA20
@@ -255,7 +267,7 @@ Ví dụ Tín hiệu mua: Nếu như MACD cắt lên trên đường tín hiệu
  + Ghi chú: Các tín hiệu thường sẽ chậm nhưng chắc chắn, ta có thể bán sớm hơn dựa vào phân tích nến, trong xu hương tăng nếu xuất hiện cây nến shooting star và doji
    với vol lớn thì cũng nên bán 
 
-   
+
    
 -----------------------Lướt sóng khi đang trong xu hướng tăng(đường MA20 phải hướng lên yếu tố chính, MACD hướng lên càng tốt)-------------------------
 - Khi đang trong xu hướng tăng nếu gặp kháng cự yếu(1-3 cây nến xây) thì giá có khả năng sẽ giảm về 1/4 của cây tăng mạnh, nhưng cũng khả năng tăng qua luôn 
@@ -268,6 +280,7 @@ Bán khi giá quay lại vùng kháng cự mạnh đó(ăn non) hoặc chờ đ�
 dựa vào phân tích nến và vol để bán sẽ hiệu quả hơn nếu xuất hiện nến vol trung bình trở lên nhưng giá không tăng thậm chí đỏ => bán,
 nếu xuất hiện nến shooting star vol trung bình trở lên => bán
 
+=> nhớ nguyên tắc 2 cây test lại sau khi có cây break, còn 1 cây test lại sau khi có cây xuyên thủng xuống dưới MA20
 
 => đối với những cây break là những cây nến giá vượt qua M20, hoặc đỉnh gần nhất + vol lớn => mua khi giá qua MA20 hoặc đỉnh gần nhất, mua 50% ,
  còn nếu chưa kịp mua thì cần xem 2 cây tiếp theo nếu tích luỹ tốt vol nhỏ và xanh thì mua mới hoặc mua thêm, 
@@ -275,38 +288,67 @@ nếu xuất hiện nến shooting star vol trung bình trở lên => bán
  
 => Nhớ là 1 cây đã break mà không mua kịp lúc break qua điểm thì không được mua ở đỉnh cây nến mà phải chờ 2 cây test tiếp theo tích luỹ như thế nào
 
-=> bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 2% thì nên mua, nếu chót đã mua chờ ngày T+2,
+=> bài học rút ra khi trade là: cây vol rất lớn nhưng giá biến động không lớn hơn 2% thì nên bán, nếu chót đã mua chờ ngày T+2,
  nếu 2 cây test vẫn ko xanh, hoặc giảm xuống hơn nửa => cắt
 
 => cây đã xuyên thủng MA20 nếu cây sau test lại không lên được thì bán ngay
 
 => nên bán ở cuối phiên, khi nến gần được hình thành rõ ràng vì trong phiên có thể biến động rất mạnh => lúc này ta có thể nhìn nhận xu hướng 1 cách rõ ràng
 
+- Lướt ngắn hạn nên xem đồ thị giờ, xem cố phiếu định mua, xem vni
+- Lướt T+ mua khi phân kì dương 2 đoạn trên chart giờ
+- Lướt T+ thì cần xem thêm phân kỳ âm 2 đoạn trên chart giờ thì canh bán
+
+- Cổ phiếu mạnh là cổ phiếu thường không hay test lại vùng MA20, MA50
+- Cổ phiếu ngách là cổ phiếu kéo khi thị trường đi ngang, khi nhóm thị trường tăng thì có khả năng vốn lại rút từ ngách về thị trường
+- khi thị trường giảm mạnh có 1 số cổ phiếu đứng giá hoặc tăng -> cổ phiếu mạnh
+- Điểm mua sớm là điểm mua pull back ở MA200
+- Điểm mua gia tăng là điểm mua lúc cổ phiếu đã tăng và tích lũy
+- Điểm mua vượt đỉnh là điểm mua trong trend mạnh thì mới có ăn
+- Đối với cổ phiếu đã vượt định thời đại, thì không còn cung về bờ, chỉ còn cung chốt lãi
+- Cổ phiếu tăng mà có mây đỏ dày đè trên thì khả năng cao là giao dịch trong mây, muốn tăng được thì phải qua vùng mây mỏng hoặc chỗ có eo mây
+- Nếu không bắt đáy thì chỉ mua khi MACD cắt đường tín hiệu đi lên(mua dò đáy thì cũng mua với tỉ trọng rất nhỏ)
+- Dùng RSI để bắt đáy(RSI dưới 30 thường sẽ hồi phục)
+- Thông thường nếu giá cắt MA20 khi MA20 còn đang dốc xuống thì giá sẽ chưa tăng luôn mà sẽ side way quanh MA20 để kéo ngang MA20 ta sẽ mua khi giá cắt MA20 lần thứ 2,
+hoặc để an toàn nhất ta nên mua khi giá break khỏi vùng tích lũy quanh MA20
+- Vùng kháng cự là vùng đỉnh cũ hoặc vùng mà cổ phiếu tích lũy lâu ở đó, khi cổ phiếu lên gần tới vùng kháng cự(vùng mà cổ phiếu tích lũy lâu ở đó trước khi bị thủng)
+điểm bán của ta nên là đáy của các vùng đó, chứ không nên tham bán ở đỉnh các vùng đó, nên mua lại khi giá vượt hẳn vùng kháng cự 
+
+
+
+- Cách tính phân kì: tính từ lúc MACD cắt đi lên trên đường tín hiệu, nếu MACD cắt xuống đường tín hiệu(lúc này vẫn tính phân kì) nhưng nếu MACD cắt lên tí hiệu thì
+ta lại tính 1 vòng mới tự nghĩ cần kiểm nghiệm
+
+
+- Trước mỗi phiên giao dịch cần xem xét lại danh mục và đặt sẵn lệnh dừng ở các điểm mua, chốt lời, cắt lỗ
+- Lúc 14h cần theo dõi sát bảng
+- Khi mua cổ phiếu cần đặt luôn lệnh dừng
+
+
+
+
 
 ------------------Lọc cổ phiếu để theo dõi-----------------
 - Tại mỗi phiên giao dịch lọc các cổ có giá vượt MA20 để theo dõi vượt MA20 1 khoảng đủ lớn có thể mua một ít
-- Sau mỗi phiên giao dịch: 
+- Sau mỗi phiên giao dịch:
+    + lọc cổ phiếu gần MA20 để đăt lệnh dừng khi giá vượt qua MA20 thì mua
 	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của ngày hôm đó để theo dõi 2 cây nên của ngày tiếp theo
 	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của ngày hôm trước đó để theo dõi cây nến đầu tiên sau khi giá vượt MA20 
 	+ lọc các cổ có giá vượt MA20 và khối lượng lớn hơn 150% của 2 ngày trước đó để theo dõi 2 cây nến sau khi giá vượt MA20 
 
-
-
-
-
-- Theo dõi:
-	+ HPG sau khi đã vượt MA20 và 2 cây test lại như thế nào -> nếu tốt mua ở cây test lại thứ 2 lúc gần cuối phiên
-	+ VND MA20 đang đi ngang, giá đã vượt MA20 với cây vol lớn, chờ đơi 2 cây test hoặc đợi giá vượt đỉnh gần nhất 15.5 thì mua
-	+ GIL giá đã vượt MA20 và đỉnh gần nhất, cây thứ 1 test lại là 1 cây xanh, theo dõi cây tiếp theo
-	+ KBC sau khi vượt MA20 đã test lại 1 cây giá không giảm quá nhiều nhưng vol đang khá lớn so với cây break, theo dõi cây tiếp theo nếu giá vượt đỉnh gần nhất 27.6 mua
-	+ LSS sau khi vượt MA20 đã test lại 1 cây giá không giảm quá nhiều nhưng vol đang khá lớn so với cây break, theo dõi cây tiếp theo nếu giá vượt đỉnh gần nhất 12.5 mua
-	+ HDG giá đã vượt MA20 đang gần đỉnh gần nhất, canh giá vượt đỉnh gần nhất 29.5 thì mua
-	+ VGC giá vượt MA20 với cây vol lớn, cây sau test lại chạm MA20 vol trung bình
-	+ PVD có 1 cây vượt qua MA20 vol lớn, theo dõi 2 cây tiếp theo có tích luỹ trên MA20 hay không 
-	+ SAB có 1 cây vượt qua MA20 với 1 cây khá lớn, theo dõi xem có vượt đỉnh gần nhất 58.8 hay không
-	+ VPG chờ vượt đỉnh gần nhất để mua
-
-
+- Cách lựa chọn cổ phiếu đầu tư:
+  + Nhóm có câu chuyện nhóm dẫn sóng
+  + Chọn cổ cơ bản tốt nhất
+  + Eps tăng mạnh
+  + Tài sản ngắn hạn lớn hơn so với nợ
+  + Trả cổ tức cao pb nhỏ
+  + Nhiều tài sản
+  + P/B < 1 (Dưới giá trị sổ sách)
+  + Đang tích lũy
+  + Lựa chọn thời điểm mua đất theo dòng tiền
+  + Xuất hiện điểm nổ, điểm break
+  + Bds thì nên mua sau báo cáo 2 tuần, bán trước báo cáo
+  
 
 
 
