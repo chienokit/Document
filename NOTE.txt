@@ -1,11 +1,24 @@
 qlktx: admin (Admin93#)
 114 super pass: System114!&
 
+Pass61: Foxconn12
+Pass30: Foxconn123
+Pass office365: Vukhanhngoc2#
+
+tăng ca đến ngày 20, 21, 22, 23, 24, 25, 26, 28
+- tăng ca 11/2025: 3, 4, 
+
+-  lưu file 114 cũ: nói tóm lại mình đang chỉ lưu file ở máy chạy java, nếu muốn lưu ở chỗ khác phải sửa lại code các hàm lưu file, loadresource cho phù hợp
+- lưu file 114 mới sửa: Giờ mình chỉ lưu file ở con 61(thông qua sftp) đã cấu hình sẵn trong hàm store
+
+ 
+
 pass icivet:
 Vukhanhngoc1
 Vuhuuchien93
 
 mbs: XE9400 pass: wvk4lcgE
+http://10.224.69.61:8014/swagger-ui/index.html#/User%20Resource
 
 Cho vay:
 - Dũng: 5 + 1 - 2
@@ -156,3 +169,11 @@ dxg
 gửi mail ký
 gửi mail complaint
 xác nhận cancel của qlktx khi người sửa chữa báo cancel, và không sửa được, gửi mail và thông báo qua icivet
+
+
+
+
+amata thì kí duyệt cố định, vẫn lấy trong group chief, thêm 1 trường sort để biết ai kí trước, kí sau
+1 số tài khoản không cần ký duyệt
+
+acoutn service trả về thêm là tài khoản bảo vệ
