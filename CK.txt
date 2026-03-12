@@ -30,10 +30,10 @@ các công ty mà tài sản hữu hình nó đóng vai trò lớn trong mô hì
 2. Nhận biết các mẫu nến cơ bản
 Các mẫu nến cơ bản giúp xác định xu hướng tiếp theo của giá:
 
-Nến Doji: Thân nến rất mỏng hoặc không có, cho thấy sự do dự hoặc đảo chiều xu hướng.
-Nến Hammer (Búa): Có thân nến ngắn, bóng dưới dài, thể hiện khả năng đảo chiều tăng trong xu hướng giảm.
-Nến Shooting Star: Có thân nến ngắn, bóng trên dài, cho thấy khả năng đảo chiều giảm trong xu hướng tăng.
-Nến Engulfing (Nhấn chìm): Thân nến lớn hoàn toàn bao phủ thân nến trước đó, thường báo hiệu sự đảo chiều mạnh.
+- Nến Doji: Thân nến rất mỏng hoặc không có, cho thấy sự do dự hoặc đảo chiều xu hướng.
+- Nến Hammer (Búa): Có thân nến ngắn, bóng dưới dài, thể hiện khả năng đảo chiều tăng trong xu hướng giảm.
+- Nến Shooting Star: Có thân nến ngắn, bóng trên dài, cho thấy khả năng đảo chiều giảm trong xu hướng tăng.
+- Nến Engulfing (Nhấn chìm): Thân nến lớn hoàn toàn bao phủ thân nến trước đó, thường báo hiệu sự đảo chiều mạnh.
 
 -----------------------Nguyễn Toại-------------------------
 - Trong 1 xu hướng tăng thì sóng tăng sẽ dài sóng điều chỉnh sẽ ngắn và nhanh và tới khi nào nhịp tăng của nó yếu dần(đỉnh sau không cao hơn đỉnh trước mấy) thì kết thúc xu hướng tăng,
